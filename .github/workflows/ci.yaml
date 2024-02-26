@@ -9,8 +9,8 @@ jobs:
     steps:
       - name: success echo
         run: echo "success"
-  failure:
-    runs-on: ubuntu-latest
-    steps:
-      - name: failure echo
-        run: go run main.go
+#   failure:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: failure echo
+#         run: go run main.go

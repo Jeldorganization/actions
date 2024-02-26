@@ -1,0 +1,16 @@
+name: notify
+
+on:
+  push:
+
+jobs:
+  success:
+    runs-on: ubuntu-latest
+    steps:
+      - name: success echo
+        run: echo "success"
+  failure:
+    runs-on: ubuntu-latest
+    steps:
+      - name: failure echo
+        run: go run main.go

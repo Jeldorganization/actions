@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: success echo
-        run: echo "success"
+        run: echo "success 1"
 #   failure:
 #     runs-on: ubuntu-latest
 #     steps:
